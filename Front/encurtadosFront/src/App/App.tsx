@@ -2,7 +2,7 @@ import { Form } from '../Form/Form';
 import './App.css'
 import './Form.css'
 
-function App () {
+export function App () {
     return (
         <div>
 
@@ -14,4 +14,3 @@ function App () {
     )
 }
 
-export default App
