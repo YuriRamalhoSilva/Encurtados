@@ -23,17 +23,25 @@ a:hover {
 }
 
 body {
-  margin: 0;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-cfww0lp9Lkpk1liWHMYQeRakg70Nq6hbAA&s);
+  background-position: center;
+  background-attachment: fixed;
   display: flex;
+  justify-content: center;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  margin: 0;
+  
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  
 }
+
+
 
 button {
   border-radius: 8px;
