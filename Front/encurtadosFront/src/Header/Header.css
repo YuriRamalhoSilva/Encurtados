@@ -9,7 +9,7 @@ header{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     position: absolute;
-    padding-inline: 186px;
+    padding-inline: 191px;
     box-shadow: 0 0 10px 5px rgba(11, 86, 224, 0.7);
     animation: rgbGlow 5s linear infinite;
     
