@@ -8,7 +8,7 @@ export function App () {
     
     return (
         <div>
-            {/* <Header /> */}
+            <Header />
             <Form />
         </div>
     )
