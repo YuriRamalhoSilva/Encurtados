@@ -8,6 +8,7 @@ form {
     padding: 85px;
     box-shadow: 0 0 10px 5px rgba(11, 86, 224, 0.7);
     animation: rgbGlow 5s linear infinite;
+    text-align: center;
 }
 
 
@@ -16,17 +17,25 @@ p {
 }
 
 input {
-    border-radius: 5px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
     width: 500px;
     padding: 10px;
     border: 0;
 }
 
+.inp-btn{
+    display: flex;
+
+}
+
 button {
-  border-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
   border: 1px solid transparent;
   padding: 0.5em 0.7em;
   font-size: 1em;
+  width: 70px;
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
