@@ -2,9 +2,34 @@
 
 header{
     display: flex;
-    background-color: #3e3e3e;
+    background-color: #525252;
     flex-direction: row;
+    top: 0;
+    border: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    padding-inline: 191px;
+    box-shadow: 0 0 10px 5px rgba(11, 86, 224, 0.7);
+    animation: rgbGlow 5s linear infinite;
+    
 }
+
+@keyframes rgbGlow {
+    0% {
+        box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000; 
+    }
+    33% {
+        box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00; 
+    }
+    66% {
+        box-shadow: 0 0 10px #0000ff, 0 0 20px #0000ff; 
+    }
+    100% {
+        box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000; 
+    }
+}
+
 
 img{
     width: 50px;
