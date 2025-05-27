@@ -1,22 +1,15 @@
 form { 
     display: flex;
+    flex-direction: column;
     background-color: #525252;
     color: black;
     border-radius: 20px;
     max-width: 1000px;
-    padding: 50px;
-    flex-direction: column;
+    padding: 85px;
     box-shadow: 0 0 10px 5px rgba(11, 86, 224, 0.7);
     animation: rgbGlow 5s linear infinite;
 }
 
-.form-content{
-
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-
-}
 
 p {
     color: rgb(43, 255, 0);
